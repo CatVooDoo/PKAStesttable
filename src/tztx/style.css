@@ -39,7 +39,7 @@ tbody tr:hover {
 }
 
 /* Верстка под мобильное устройство */
-@media (max-width: 700px) {
+@media (mix-width: 400px) {
     .wrapper {
         max-width: 400px;
     }
