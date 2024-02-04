@@ -55,42 +55,28 @@ tbody tr:hover {
 /* Карточка специальности */
 
 .proff--cards {
-    padding-left: 6vw;
+    padding-left: 5vw;
 }
 
 .proff--card {
-    width: 290px;
+    width: 289px;
     height: 135px;
-    background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
     border-radius: 8px;
-    margin-bottom: 30px;
+    background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
 }
 
 .card--inner {
-    padding: 10px 18px 18px;
+    padding: 10px 16px 15px 16px;
 }
 
 .card--titles {
-    display: flex; 
-    margin-bottom: 15px;   
-
+    display: flex;
+    justify-content: space-between;
 }
+
 .card--title {
     font-weight: 400;
     font-size: 15px;
     color: #fff;
-    margin-right: 8px;
 }
 
-.card--title:last-child {
-    margin-right: 0;
-}
-
-.card--subtitles {
-    display: flex;
-}
-
-.card--subtitle {
-    max-width: 78px;
-    margin-right: 70px;
-}
