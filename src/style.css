@@ -10,17 +10,6 @@ body {
     margin-bottom: 100px;
 }
 
-@media (max-width: 1188px) {
-    .wrapper {
-        max-width: 1000px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .wrapper {
-        max-width: 700px;
-    }
-}
 /* Стили таблицы */
 table {
     width: 100%;
@@ -42,23 +31,14 @@ tbody tr:hover {
     color: #1e4592;
 }
 
-/* Верстка под мобильное устройство */
-@media (max-width: 700px) {
-    .wrapper {
-        max-width: 400px;
-    }
-    table {
-        display: none;
-    }
+table {
+    display: none;
 }
 
-/* Карточка специальности */
-
-.proff--cards {
-    padding-left: 5vw;
-}
+/* Карты специальности */
 
 .proff--card {
+    margin: 0 auto;
     width: 289px;
     height: 85px;
     border-radius: 8px;
