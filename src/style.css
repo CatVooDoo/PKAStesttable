@@ -37,18 +37,28 @@ table {
 
 /* Карты специальности */
 
+@media (max-width: 400px) {
+    .wrapper {
+        max-width: 360px;
+    }
+}
+
 .proff--card {
     margin: 0 auto;
     width: 289px;
     height: 85px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
-    transition: 0.3s  ease;
-    margin-bottom: 20px;
+    transition: 0.7s ease;
+    margin-bottom: 0px;
 }
 
 .proff--card-hover {
     transform: scale(0.95);
+}
+
+.proff-card-anim {
+    margin-bottom: 20px;
 }
 
 .card--inner {
