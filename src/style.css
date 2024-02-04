@@ -45,7 +45,7 @@ tbody tr:hover {
 /* Верстка под мобильное устройство */
 @media (max-width: 700px) {
     .wrapper {
-        max-width: 360px;
+        max-width: 400px;
     }
     table {
         display: none;
@@ -63,6 +63,11 @@ tbody tr:hover {
     height: 135px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
+    transition: 0.3s ease;
+}
+
+.proff--card-hover {
+    transform: scale(0.95);
 }
 
 .card--inner {
@@ -78,5 +83,6 @@ tbody tr:hover {
     font-weight: 400;
     font-size: 15px;
     color: #fff;
+    margin-bottom: 13px;
 }
 
