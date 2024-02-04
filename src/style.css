@@ -44,13 +44,14 @@ table {
 }
 
 .proff--card {
+    position: relative;
     margin: 0 auto;
     width: 289px;
     height: 85px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
     transition: 0.7s ease;
-    margin-bottom: 0px;
+    margin-bottom: -80px;
 }
 
 .proff--card-hover {
