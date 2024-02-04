@@ -60,10 +60,11 @@ tbody tr:hover {
 
 .proff--card {
     width: 289px;
-    height: 135px;
+    height: 85px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
-    transition: 0.3s ease;
+    transition: 0.3s  ease;
+    margin-bottom: 20px;
 }
 
 .proff--card-hover {
@@ -72,6 +73,7 @@ tbody tr:hover {
 
 .card--inner {
     padding: 10px 16px 15px 16px;
+    padding-bottom: 0;
 }
 
 .card--titles {
@@ -85,4 +87,3 @@ tbody tr:hover {
     color: #fff;
     margin-bottom: 13px;
 }
-
