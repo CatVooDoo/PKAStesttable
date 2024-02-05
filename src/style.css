@@ -51,11 +51,15 @@ table {
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
     transition: 0.7s ease;
-    margin-bottom: -80px;
+    margin-bottom: -85px;
 }
 
 .proff--card-hover {
     transform: scale(0.95);
+}
+
+.proff--card-active {
+    height: 150px;
 }
 
 .proff-card-anim {
