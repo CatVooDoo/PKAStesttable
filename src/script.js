@@ -18,4 +18,3 @@ profCard.forEach(function(speciallity) {
         });
     });
 });
-
