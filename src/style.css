@@ -56,8 +56,8 @@ table {
 }
 
 .proff--card-active {
-    height: 135px;
-    padding: 10px 16px 15px 16px;
+    height: 135px;  
+    /* padding: 3px 3px 3px 3px; */
 }
 
 .proff-card-anim {
@@ -65,6 +65,7 @@ table {
 }
 
 .card--inner {
+    position: relative;
     padding: 10px 16px 15px 16px;
 }
 
@@ -80,12 +81,21 @@ table {
 .card--title {
     font-weight: 400;
     font-size: 15px;
-    color: #fff;
+    color: #fff ;
     margin-bottom: 13px;
 }
 
 .card--subtitle {
-    margin-bottom: 0;
+    margin-bottom: 15 px;
 }
 
 /* ********************************************************************************** */
+
+.more--info {
+    display: none;
+    transition: 1s ease;
+}
+
+.more--info-active {
+    display: block;
+}
