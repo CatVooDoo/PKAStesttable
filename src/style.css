@@ -52,11 +52,12 @@ table {
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
     transition: 0.5s ease;
-    margin-bottom: -85px;
+    margin-bottom: -80px;
 }
 
 .proff--card-active {
     height: 135px;
+    padding: 10px 16px 15px 16px;
 }
 
 .proff-card-anim {
@@ -72,6 +73,10 @@ table {
     justify-content: space-between;
 }
 
+/* .card--subtitle {
+    text-align: left;
+} */
+
 .card--title {
     font-weight: 400;
     font-size: 15px;
@@ -82,4 +87,5 @@ table {
 .card--subtitle {
     margin-bottom: 0;
 }
+
 /* ********************************************************************************** */
