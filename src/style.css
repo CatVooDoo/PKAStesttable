@@ -93,8 +93,30 @@ table {
 
 .more--info {
     display: none;
-    transition: 1s ease;
+    transition: 10s ease;
 }
+
+.block--pdf {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+}
+
+.pdf--file {
+    width: 30px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #f00;
+}
+
+
+
+
+
+
+
+
+
 
 .more--info-active {
     display: block;
