@@ -13,11 +13,17 @@ profCard.forEach(function (speciallity) {
         event.stopPropagation();
         speciallity.classList.add('proff--card-active');
         const index = Array.from(profCard).indexOf(speciallity);
-        cardMoreInfo[index].classList.add('more--info-active');
+        setTimeout(function() {
+            cardMoreInfo[index].classList.add('more--info-active');
+        },110)
+        
     });
     speciallity.addEventListener('touchend', function () {
         speciallity.classList.remove('proff--card-active');
         const index = Array.from(profCard).indexOf(speciallity);
-        cardMoreInfo[index].classList.remove('more--info-active');
+        setTimeout(function () {
+            cardMoreInfo[index].classList.remove('more--info-active');
+        });
+        
     });
 });
