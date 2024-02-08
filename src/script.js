@@ -15,7 +15,7 @@ profCard.forEach(function (speciallity) {
         const index = Array.from(profCard).indexOf(speciallity);
         setTimeout(function() {
             cardMoreInfo[index].classList.add('more--info-active');
-        },110)
+        },10)
         
     });
     speciallity.addEventListener('touchend', function () {
