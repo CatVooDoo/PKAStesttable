@@ -42,6 +42,8 @@ table {
     .wrapper {
         max-width: 360px;
     }
+
+
 }
 
 .proff--card {
@@ -51,7 +53,7 @@ table {
     height: 80px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
-    transition: 0.7s ease;
+    transition: height 0.3s ease, margin-bottom 0.7s ease;
     margin-bottom: -80px;
 }
 
@@ -61,8 +63,7 @@ table {
 
 .proff--card-active {
     height: 135px;
-    /* padding: 3px 3px 3px 3px; */
-    transition: 0.3s ease;
+    transition: height 0.3s ease;
 }
 
 .card--inner {
@@ -83,14 +84,13 @@ table {
 }
 
 .card--subtitle {
-    margin-bottom: 15 px;
+    margin-bottom: 15px;
 }
 
 /* **********************************more--info************************************** */
 
 .more--info {
     display: none;
-    opacity: 0;
 }
 
 .block--pdf {
@@ -103,12 +103,11 @@ table {
     width: 30px;
     height: 20px;
     border-radius: 4px;
-    background-image: url(../img/PDFicon.svg);
-    background-repeat: no-repeat;
     background-color: #fff;
+    /* background-image: url(../img/PDFicon.svg);
+    background-repeat: no-repeat; */
 }
 
 .more--info-active {
     display: block;
-    opacity: 100;
 }
