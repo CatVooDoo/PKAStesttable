@@ -55,16 +55,13 @@ table {
     margin-bottom: -80px;
 }
 
-
-
 .proff-card-anim {
     margin-bottom: 20px;
 }
 
 .proff--card-active {
     height: 135px;
-    padding: 3px 3px 3px 3px;
-    transform: scale(1.01);
+    /* padding: 3px 3px 3px 3px; */
     transition: 0.3s ease;
 }
 
@@ -78,10 +75,6 @@ table {
     justify-content: space-between;
 }
 
-/* .card--subtitle {
-    text-align: left;
-} */
-
 .card--title {
     font-weight: 400;
     font-size: 15px;
@@ -93,11 +86,11 @@ table {
     margin-bottom: 15 px;
 }
 
-/* ********************************************************************************** */
+/* **********************************more--info************************************** */
 
 .more--info {
     display: none;
-    transition: 10s ease;
+    opacity: 0;
 }
 
 .block--pdf {
@@ -110,9 +103,12 @@ table {
     width: 30px;
     height: 20px;
     border-radius: 4px;
+    background-image: url(../img/PDFicon.svg);
+    background-repeat: no-repeat;
     background-color: #fff;
 }
 
 .more--info-active {
     display: block;
+    opacity: 100;
 }
