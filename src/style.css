@@ -51,17 +51,21 @@ table {
     height: 80px;
     border-radius: 8px;
     background: linear-gradient(180deg, #1E4592 0%, #4065C1 100%);
-    transition: 0.5s ease;
+    transition: 0.7s ease;
     margin-bottom: -80px;
 }
 
-.proff--card-active {
-    height: 135px;  
-    /* padding: 3px 3px 3px 3px; */
-}
+
 
 .proff-card-anim {
     margin-bottom: 20px;
+}
+
+.proff--card-active {
+    height: 135px;
+    padding: 3px 3px 3px 3px;
+    transform: scale(1.01);
+    transition: 0.3s ease;
 }
 
 .card--inner {
@@ -81,7 +85,7 @@ table {
 .card--title {
     font-weight: 400;
     font-size: 15px;
-    color: #fff ;
+    color: #fff;
     margin-bottom: 13px;
 }
 
@@ -106,17 +110,8 @@ table {
     width: 30px;
     height: 20px;
     border-radius: 4px;
-    background-color: #f00;
+    background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
 
 .more--info-active {
     display: block;
