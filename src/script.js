@@ -1,7 +1,7 @@
 const profCard = document.querySelectorAll(".proff--card");
 const cardMoreInfo = document.querySelectorAll(".more--info");
 
-const proffIndex = ['https://pkas58.ru/article/070201', 'https://pkas58.ru/article/090207', '']
+const proffIndex = ['https://pkas58.ru/article/070201', 'https://pkas58.ru/article/080201', 'https://pkas58.ru/article/090207',]
 
 
 profCard.forEach(function (speciallity) {
