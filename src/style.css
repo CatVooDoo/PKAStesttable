@@ -62,7 +62,7 @@ table {
 }
 
 .proff--card-active {
-    height: 135px;
+    height: 110px;
     transition: height 0.3s ease;
 }
 
@@ -83,9 +83,14 @@ table {
     margin-bottom: 13px;
 }
 
-.card--subtitle {
-    margin-bottom: 15px;
+.card--subtitles {
+    margin-bottom: 10px;
 }
+
+.card--subtitle {
+    margin-bottom: 0;
+}
+
 
 /* **********************************more--info************************************** */
 
