@@ -62,8 +62,15 @@ table {
 }
 
 .proff--card-active {
-    height: 110px;
-    transition: height 0.3s ease;
+    height: 100px;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.progg--card-touch {
+    transition: 0.3s ease;
+    transform: scale(0.95);
+    
 }
 
 .card--inner {
