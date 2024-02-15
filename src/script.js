@@ -16,7 +16,7 @@ profCard.forEach(function (speciallity) {
         if (speciallity.classList.contains('proff--card-active')) {
             const index = Array.from(profCard).indexOf(speciallity);
             speciallity.classList.add('progg--card-touch'); 
-            window.location.assign(proffIndex[index]); // отправка на страницу пкаса
+            window.location.href = proffIndex[index]; // отправка на страницу пкаса
         } else {
             // скрытие первой карточки
             profCard.forEach(function (otherCard) {
